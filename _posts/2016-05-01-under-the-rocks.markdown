@@ -3,12 +3,12 @@ title: "under the rocks: nw canada"
 layout: post
 date: 2016-01-23 22:10
 tag: [geology, landsat]
-image: /indigo/assets/images/jekyll-logo-light-solid.png
+image: ../assets/images/projects/thumbnail/nw-canada.jpg
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
-jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
+jemoji: '<img class="emoji" title=":earth_americas:" alt=":earth_americas:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f30e.png" height="20" width="20" align="absmiddle">'
 category: geo
 author: tiffanycitra
 externalLink: false

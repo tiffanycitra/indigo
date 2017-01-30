@@ -3,18 +3,17 @@ title: "fetch"
 layout: post
 date: 2016-01-23 22:10
 tag: [data science, python]
-image: /indigo/assets/images/jekyll-logo-light-solid.png
+image: ../assets/images/projects/thumbnail/fetch.jpg
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
-jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
+jemoji: '<img class="emoji" title=":octocat:" alt=":octocat:" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="20" width="20" align="absmiddle">'
 category: cs
 author: tiffanycitra
 externalLink: false
 ---
-
-**Fetch** is a web app that my friends and I developed as final project for CSCI1951-A: Data Science in Spring 2016. We are really happy that our hard work paid off — it received the *2nd Place Faculty Choice Award during the poster session!
+**Fetch** is a web app that my friends and I developed as final project for CSCI1951-A: Data Science in Spring 2016. We are really happy that our hard work paid off — it received the *2nd Place Faculty Choice Award* during the poster session!
 
 We try to explore the responsiveness of GitHub projects to trends in tech, and provide individual analytics and recommendations for an idea the user may have. Our web app visualizes all data analytics on popularity, language aggregation, and stars prediction, in an intuitive, informative and aesthetic way.
 

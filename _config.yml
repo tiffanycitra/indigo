@@ -1,6 +1,6 @@
 # main text of home
 name: Tiffany Citra
-bio: 21-year old Life Enthusiast. 
+bio: A 21-year old Life Enthusiast
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -57,7 +57,7 @@ email: tiffanycitra95@gmail.com
 authors:
     tiffanycitra:
         name: Tiffany Citra
-        bio: 21-year-old Life Enthusiast.
+        bio: A 21-year-old Life Enthusiast
         external-image: false
         picture: assets/images/profile.jpg
         twitter:
@@ -76,7 +76,9 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-#blog: true
+blog: true
+blog-external: true
+blog-url: https://blogattiffanys.com/
 
 # do you want to show the "read time" of the posts?
 read-time: true

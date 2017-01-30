@@ -2,12 +2,34 @@
 layout: page
 title: Projects
 ---
+
+<p align="center">Here are some of the things that I have made in the past. Say hi if you want to learn more about any of them, I'd be more than happy to have a chat!</p>
+
+<h2><center>developing</center></h2>
 <section class="list">
     {% for post in site.posts %}
-        {% if post.projects %}
+        {% if post.projects and post.category == 'cs' %}
             <div class="item {% if post.star %}star{% endif %}">
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                    {% comment %} 
+                        <aside><time datetime="{{ post.date | date:"%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside> 
+                    {% endcomment %}
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<h2><center>researching</center></h2>
+<section class="list">
+    {% for post in site.posts %}
+        {% if post.projects and post.category == 'geo' %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    {% comment %} 
+                        <aside><time datetime="{{ post.date | date:"%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside> 
+                    {% endcomment %}
                     {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
                 </a>
             </div>

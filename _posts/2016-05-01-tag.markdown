@@ -16,6 +16,10 @@ externalLink: false
 
 Touch Art Gallery (TAG) is a Win8 web app used primarily by museum curators and educators to display large scale artworks, and developed by a group of undergraduate researchers at Brown Graphics Lab.
 
+---
+
+![Nobel Will](../assets/images/projects/tag/will.png)
+
 Last year, a subset of the team -- which included myself and four other people -- partnered with Microsoft Research and Nobel Foundation. We developed a customized version of TAG for the exhibition ["The Nobel Prize -- Ideas Changing the World"](https://www.nobelprize.org/events/nobel-prize-series/singapore-2015/exhibition.html) in Singapore (2015).
 
 I was responsible for front-end development using Javascript and HTML/CSS, in which I implemented new UI features and fixed multiple bugs. I also had the chance to participate in demo and design discussion with representatives from Microsoft Research and Nobel Media.

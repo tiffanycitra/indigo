@@ -15,6 +15,10 @@ externalLink: false
 ---
 **Fetch** is a web app that my friends and I developed as final project for CSCI1951-A: Data Science in Spring 2016. We are really happy that our hard work paid off — it received the *2nd Place Faculty Choice Award* during the poster session!
 
+![Home page](../assets/images/projects/fetch/homepage.png)
+
+![User input](../assets/images/projects/fetch/userinput.png)
+
 We try to explore the responsiveness of GitHub projects to trends in tech, and provide individual analytics and recommendations for an idea the user may have. Our web app visualizes all data analytics on popularity, language aggregation, and stars prediction, in an intuitive, informative and aesthetic way.
 
 I was responsible for most of the design and recommendation feature, which is done using linear and logistic regression.
@@ -22,6 +26,8 @@ I was responsible for most of the design and recommendation feature, which is do
 ---
 
 **Some interesting observations for “kafka”:**
+
+![Kafka](../assets/images/projects/fetch/kafka.png)
 
 The GitHub popularity has pretty much consistently increased since 2014, whereas the popularity on Google remains constant, except for a sudden peak in mid-2013. We later discovered that the peak on Google Trend is caused by Google Doodle on Franz Kafka’s 130th birthday, which we find really fun.
 

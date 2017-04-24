@@ -14,7 +14,7 @@ layout: page
 
 <p>In my spare time, I enjoy reading, baking, and planning for my next travel.</p>
 
-<p>I am excited about exploring new things and telling stories, and this blog is just one of the few platforms where I attempt to share my thoughts and ideas, as well as some fun projects that I have worked on in the past.</p>
+<p>I am excited about exploring new things and telling stories, and this website is just one of the few platforms where I attempt to share my thoughts and ideas, as well as some fun projects that I have worked on in the past.</p>
 
 <p>Feel free to shoot me an email at: tiffanycitra95@gmail.com.</p>
 

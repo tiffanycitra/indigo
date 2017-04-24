@@ -1,0 +1,57 @@
+---
+layout: page
+title: Writing
+---
+
+<p align="center">I try to squeeze in some time to write every once in a while. Some of the things I like to write about include my home country, science, as well as my experience studying and living abroad. Here is a list of articles I have written for other publications.</p>
+
+<h2 align="center">ursa sapiens</h2>
+<p align="center" ><i>a science blog written by students at Brown University that aims to promote discussions in science, technology, and society</i></p>
+<section class="list" align="center">
+    {% for post in site.posts %}
+        {% if post.writing and post.category == 'ursa' %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    {% comment %} 
+                        <aside><time datetime="{{ post.date | date:"%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside> 
+                    {% endcomment %}
+                    <h4 class="title">{{ post.title }}</h4>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<h2 align ="center">indonesia mengglobal</h2>
+<p align ="center"><i>an online platform that aims to make information about studying abroad more accessible to Indonesians</i></p>
+<section class="list" align="center">
+    {% for post in site.posts %}
+        {% if post.writing and post.category == 'im' %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    {% comment %} 
+                        <aside><time datetime="{{ post.date | date:"%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside> 
+                    {% endcomment %}
+                    <h4 class="title">{{ post.title }}</h4>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<h2 align ="center">international writers' blog</h2>
+<p align ="center"><i>a publication that focuses on raising international voices at Brown University</i></p>
+<section class="list" align="center">
+    {% for post in site.posts %}
+        {% if post.writing and post.category == 'iwb' %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    {% comment %} 
+                        <aside><time datetime="{{ post.date | date:"%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside> 
+                    {% endcomment %}
+                    <h4 class="title">{{ post.title }}</h4>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
